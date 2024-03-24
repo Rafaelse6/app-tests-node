@@ -4,7 +4,7 @@ export interface AppointmentProps {
     endsAt: Date;
 }
 
-export class Apointment {
+export class Appointment {
     private props: AppointmentProps;
 
     get customer() {
