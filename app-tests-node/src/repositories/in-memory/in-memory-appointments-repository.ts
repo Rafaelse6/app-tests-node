@@ -1,6 +1,6 @@
 import { areIntervalsOverlapping } from 'date-fns';
 import { Appointment } from '../../entities/appointment';
-import { AppointmentsRepository } from '../appointment-repository';
+import { AppointmentsRepository } from '../appointments-repository';
 
 export class InMemoryAppointmentsRepository implements AppointmentsRepository {
     public items: Appointment[] = [];
